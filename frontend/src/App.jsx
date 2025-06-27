@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Navbar setShowCreateJobModal={setShowCreateJobModal}/>
       <Routes>
-        <Route path='/' element={<Home showCreateJobModal={showCreateJobModal} setShowCreateJobModal={setShowCreateJobModal}/>}/>
+        <Route path='' element={<Home showCreateJobModal={showCreateJobModal} setShowCreateJobModal={setShowCreateJobModal}/>}/>
         <Route path='/findJobs' element={<Home/>}/>
         <Route path='/findTalents' element={<Home/>}/>
         <Route path='/aboutUs' element={<Home/>}/>
